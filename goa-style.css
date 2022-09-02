@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+img{
+    height: 45vh;
+    width: 100%;
+}
+.container{
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    background-color: grey;
+    border: hidden;
+}
+.container .card .face{
+    width: 300px;
+    transition: 0.5s;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    transform: translateY(250px);
+}
+.f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.f1:hover{
+    transform: translateY(0);
+    transition: 0.5s;
+}
+
+
